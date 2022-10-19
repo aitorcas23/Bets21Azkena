@@ -1,0 +1,7 @@
+organization=jononekin
+projectKey=Bets20201
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.12534
+dashboardUrl=https://sonarcloud.io/dashboard?id=Bets20201
+ceTaskId=AXTACu1jZg8dIi10qivb
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXTACu1jZg8dIi10qivb
