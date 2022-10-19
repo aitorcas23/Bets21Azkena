@@ -1,0 +1,462 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 18:03:32 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 828@iMac-de-Jon.local
+
+[2020-09-20 18:03:32 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 18:03:32 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 18:03:32 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 18:03:32 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 18:03:32 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 18:03:32 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 18:54:31 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1452@iMac-de-Jon.local
+
+[2020-09-20 18:54:32 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 18:54:32 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 18:54:32 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 18:54:32 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 18:54:32 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 18:54:32 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 18:55:44 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1463@iMac-de-Jon.local
+
+[2020-09-20 18:55:44 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 18:55:44 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 18:55:44 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 18:55:44 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 18:55:44 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 18:55:44 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 18:57:08 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1478@iMac-de-Jon.local
+
+[2020-09-20 18:57:08 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 18:57:08 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 18:57:08 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 18:57:08 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 18:57:08 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 18:57:08 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 18:57:34 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1484@iMac-de-Jon.local
+
+[2020-09-20 18:57:34 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 18:57:34 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 18:57:34 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 18:57:34 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 18:57:34 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 18:57:34 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 18:58:05 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1490@iMac-de-Jon.local
+
+[2020-09-20 18:58:05 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 18:58:05 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 18:58:05 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 18:58:05 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 18:58:05 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 18:58:05 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:02:24 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1532@iMac-de-Jon.local
+
+[2020-09-20 19:02:24 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 19:02:24 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:02:24 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 19:02:24 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 19:02:25 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 19:02:25 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:14:44 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 1-8)
+
+[2020-09-20 19:14:45 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1695@iMac-de-Jon.local
+
+[2020-09-20 19:14:45 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:14:45 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:15:02 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 9-10)
+
+[2020-09-20 19:15:02 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1698@iMac-de-Jon.local
+
+[2020-09-20 19:15:02 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:15:02 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:15:37 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 11-12)
+
+[2020-09-20 19:15:37 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1703@iMac-de-Jon.local
+
+[2020-09-20 19:15:37 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:15:37 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:16:09 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 13-13)
+
+[2020-09-20 19:16:09 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1712@iMac-de-Jon.local
+
+[2020-09-20 19:16:09 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:16:09 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:16:35 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1717@iMac-de-Jon.local
+
+[2020-09-20 19:16:35 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:16:35 #3 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:19:49 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 14-15)
+
+[2020-09-20 19:19:49 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1776@iMac-de-Jon.local
+
+[2020-09-20 19:19:49 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:19:49 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:20:47 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 16-17)
+
+[2020-09-20 19:20:47 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1785@iMac-de-Jon.local
+
+[2020-09-20 19:20:47 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:20:47 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:25:07 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 18-19)
+
+[2020-09-20 19:25:07 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1851@iMac-de-Jon.local
+
+[2020-09-20 19:25:07 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:25:07 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:25:25 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 20-22)
+
+[2020-09-20 19:25:25 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1855@iMac-de-Jon.local
+
+[2020-09-20 19:25:25 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:25:25 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:26:01 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1862@iMac-de-Jon.local
+
+[2020-09-20 19:26:01 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 19:26:01 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:26:01 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 19:26:01 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 19:26:01 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 19:26:01 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:26:15 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1865@iMac-de-Jon.local
+
+[2020-09-20 19:26:15 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 19:26:15 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:26:15 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 19:26:15 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 19:26:15 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 19:26:15 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:32:04 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1919@iMac-de-Jon.local
+
+[2020-09-20 19:32:04 #2 type.registry] 
+New type domain.Question
+
+[2020-09-20 19:32:04 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:32:04 #4 type.registry] 
+New type domain.Event
+
+[2020-09-20 19:32:04 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-20 19:32:04 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-20 19:32:04 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 19:32:27 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 1-8)
+
+[2020-09-20 19:32:27 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 1924@iMac-de-Jon.local
+
+[2020-09-20 19:32:27 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 19:32:27 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:22:06 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 9-11)
+
+[2020-09-20 20:22:06 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 2432@iMac-de-Jon.local
+
+[2020-09-20 20:22:06 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:22:06 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:22:42 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 12-14)
+
+[2020-09-20 20:22:42 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 2437@iMac-de-Jon.local
+
+[2020-09-20 20:22:42 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:22:42 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:23:35 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 15-17)
+
+[2020-09-20 20:23:35 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 2474@iMac-de-Jon.local
+
+[2020-09-20 20:23:36 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:23:36 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:24:59 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' has been recovered (tr. 18-20)
+
+[2020-09-20 20:25:00 #2 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 2486@iMac-de-Jon.local
+
+[2020-09-20 20:25:00 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:25:00 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:50:17 #1 store] 
+Database '/Users/iturrioz/Downloads/Bets2020-master/src/main/resources/bets.temp' has been recovered (tr. 21-23)
+
+[2020-09-20 20:50:17 #2 store] 
+Database '/Users/iturrioz/Downloads/Bets2020-master/src/main/resources/bets.temp' is opened by 2839@iMac-de-Jon.local
+
+[2020-09-20 20:50:17 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:50:17 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:50:42 #1 store] 
+Database '/Users/iturrioz/Downloads/Bets2020-master/src/main/resources/bets.temp' is opened by 2845@iMac-de-Jon.local
+
+[2020-09-20 20:50:42 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:50:42 #3 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 20:55:03 #1 store] 
+Database '/Users/iturrioz/Downloads/Bets2020-master/src/main/resources/bets.temp' has been recovered (tr. 24-26)
+
+[2020-09-20 20:55:04 #2 store] 
+Database '/Users/iturrioz/Downloads/Bets2020-master/src/main/resources/bets.temp' is opened by 2893@iMac-de-Jon.local
+
+[2020-09-20 20:55:04 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-20 20:55:04 #4 type] 
+Type domain.Event is not enhanced.
+

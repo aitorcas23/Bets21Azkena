@@ -1,0 +1,92 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-15 12:43:07 #1 store] 
+Database '/Users/joniturrioz/eclipse-workspace/upv.if.bets/resources/bets.temp' is opened by 7112@despacho.local
+
+[2020-01-15 12:43:08 #2 type.registry] 
+New type domain.Question
+
+[2020-01-15 12:43:08 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-01-15 12:43:08 #4 type.registry] 
+New type domain.Event
+
+[2020-01-15 12:43:08 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-01-15 12:43:08 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-01-15 12:43:08 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-15 12:48:03 #1 store] 
+Database '/Users/joniturrioz/eclipse-workspace/upv.if.bets/resources/bets.temp' is opened by 7149@despacho.local
+
+[2020-01-15 12:48:03 #2 type.registry] 
+New type domain.Question
+
+[2020-01-15 12:48:03 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-01-15 12:48:03 #4 type.registry] 
+New type domain.Event
+
+[2020-01-15 12:48:03 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-01-15 12:48:03 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-01-15 12:48:03 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-15 12:49:29 #1 store] 
+Database '/Users/joniturrioz/eclipse-workspace/upv.if.bets/resources/bets.temp' is opened by 7152@despacho.local
+
+[2020-01-15 12:49:30 #2 type.registry] 
+New type domain.Question
+
+[2020-01-15 12:49:30 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-01-15 12:49:30 #4 type.registry] 
+New type domain.Event
+
+[2020-01-15 12:49:30 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-01-15 12:49:30 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-01-15 12:49:30 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-15 13:03:00 #1 store] 
+Database '/Users/joniturrioz/eclipse-workspace/upv.if.bets/src/main/resources/bets.temp' is opened by 7175@despacho.local
+
+[2020-01-15 13:03:00 #2 type.registry] 
+New type domain.Question
+
+[2020-01-15 13:03:00 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-01-15 13:03:00 #4 type.registry] 
+New type domain.Event
+
+[2020-01-15 13:03:00 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-01-15 13:03:00 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-01-15 13:03:00 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

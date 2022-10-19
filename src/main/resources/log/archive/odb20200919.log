@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-19 21:28:23 #1 store] 
+Database '/Users/iturrioz/git/Bets2020/src/main/resources/bets.temp' is opened by 3755@iMac-de-Jon.local
+
+[2020-09-19 21:28:24 #2 type.registry] 
+New type domain.Question
+
+[2020-09-19 21:28:24 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-19 21:28:24 #4 type.registry] 
+New type domain.Event
+
+[2020-09-19 21:28:24 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-09-19 21:28:24 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-09-19 21:28:24 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-24 14:08:13 #1 store] 
+Database '/Users/iturrioz/git/Bets2021/src/main/resources/bets.temp' has been recovered (tr. 66-77)
+
+[2020-09-24 14:08:13 #2 store] 
+Database '/Users/iturrioz/git/Bets2021/src/main/resources/bets.temp' is opened by 4234@iMac-de-Jon.local
+
+[2020-09-24 14:08:13 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-09-24 14:08:13 #4 type] 
+Type domain.Event is not enhanced.
+

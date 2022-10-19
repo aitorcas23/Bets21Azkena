@@ -1,0 +1,188 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-02-18 16:33:26 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 1404@DESKTOP-1B6RACQ
+
+[2021-02-18 16:33:26 #2 type.registry] 
+New type domain.Pertsona
+
+[2021-02-18 16:33:26 #3 type.registry] 
+New type domain.Admin
+
+[2021-02-18 16:33:26 #4 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-02-18 16:33:26 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-02-18 16:33:26 #6 type.registry] 
+New type domain.Bezeroa
+
+[2021-02-18 16:33:26 #7 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-02-18 16:33:26 #8 type.registry] 
+New type domain.Langilea
+
+[2021-02-18 16:33:26 #9 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-02-18 16:33:26 #10 type.registry] 
+New type domain.Question
+
+[2021-02-18 16:33:26 #11 type] 
+Type domain.Question is not enhanced.
+
+[2021-02-18 16:33:26 #12 type.registry] 
+New type domain.Event
+
+[2021-02-18 16:33:26 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-02-18 16:33:26 #14 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-02-18 16:33:26 #15 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-02-18 16:42:11 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 4712@DESKTOP-1B6RACQ
+
+[2021-02-18 16:42:11 #2 type.registry] 
+New type domain.Pertsona
+
+[2021-02-18 16:42:11 #3 type.registry] 
+New type domain.Admin
+
+[2021-02-18 16:42:11 #4 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-02-18 16:42:11 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-02-18 16:42:11 #6 type.registry] 
+New type domain.Bezeroa
+
+[2021-02-18 16:42:11 #7 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-02-18 16:42:11 #8 type.registry] 
+New type domain.Langilea
+
+[2021-02-18 16:42:11 #9 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-02-18 16:42:11 #10 type.registry] 
+New type domain.Question
+
+[2021-02-18 16:42:11 #11 type] 
+Type domain.Question is not enhanced.
+
+[2021-02-18 16:42:11 #12 type.registry] 
+New type domain.Event
+
+[2021-02-18 16:42:11 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-02-18 16:42:11 #14 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-02-18 16:42:11 #15 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-02-18 16:43:54 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 5240@DESKTOP-1B6RACQ
+
+[2021-02-18 16:43:54 #2 type.registry] 
+New type domain.Pertsona
+
+[2021-02-18 16:43:54 #3 type.registry] 
+New type domain.Admin
+
+[2021-02-18 16:43:54 #4 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-02-18 16:43:54 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-02-18 16:43:54 #6 type.registry] 
+New type domain.Bezeroa
+
+[2021-02-18 16:43:54 #7 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-02-18 16:43:54 #8 type.registry] 
+New type domain.Langilea
+
+[2021-02-18 16:43:54 #9 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-02-18 16:43:54 #10 type.registry] 
+New type domain.Question
+
+[2021-02-18 16:43:54 #11 type] 
+Type domain.Question is not enhanced.
+
+[2021-02-18 16:43:54 #12 type.registry] 
+New type domain.Event
+
+[2021-02-18 16:43:54 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-02-18 16:43:54 #14 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-02-18 16:43:54 #15 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-02-18 16:49:14 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 9028@DESKTOP-1B6RACQ
+
+[2021-02-18 16:49:15 #2 type.registry] 
+New type domain.Pertsona
+
+[2021-02-18 16:49:15 #3 type.registry] 
+New type domain.Admin
+
+[2021-02-18 16:49:15 #4 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-02-18 16:49:15 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-02-18 16:49:15 #6 type.registry] 
+New type domain.Bezeroa
+
+[2021-02-18 16:49:15 #7 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-02-18 16:49:15 #8 type.registry] 
+New type domain.Langilea
+
+[2021-02-18 16:49:15 #9 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-02-18 16:49:15 #10 type.registry] 
+New type domain.Question
+
+[2021-02-18 16:49:15 #11 type] 
+Type domain.Question is not enhanced.
+
+[2021-02-18 16:49:15 #12 type.registry] 
+New type domain.Event
+
+[2021-02-18 16:49:15 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-02-18 16:49:15 #14 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-02-18 16:49:15 #15 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

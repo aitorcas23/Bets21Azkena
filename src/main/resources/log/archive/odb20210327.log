@@ -1,0 +1,582 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 09:52:04 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 5972@DESKTOP-1B6RACQ
+
+[2021-03-27 09:52:05 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 09:52:05 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 09:52:05 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 09:52:05 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 09:52:05 #6 type.registry] 
+New type domain.Pronostikoa
+
+[2021-03-27 09:52:05 #7 type.registry] 
+New type java.util.Vector<domain.Pronostikoa>
+
+[2021-03-27 09:52:05 #8 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 09:52:05 #9 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 10:14:00 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' has been recovered (tr. 8-8)
+
+[2021-03-27 10:14:00 #2 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 6312@DESKTOP-1B6RACQ
+
+[2021-03-27 10:14:00 #3 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 10:14:00 #4 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 10:14:00 #5 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 10:14:00 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 10:14:00 #7 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 10:14:00 #8 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 10:15:39 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 6736@DESKTOP-1B6RACQ
+
+[2021-03-27 10:15:39 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 10:15:39 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 10:15:39 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 10:15:39 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 10:15:39 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 10:15:39 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 10:17:37 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 9124@DESKTOP-1B6RACQ
+
+[2021-03-27 10:17:37 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 10:17:37 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 10:17:37 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 10:17:37 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 10:17:37 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 10:17:37 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 10:21:48 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 11100@DESKTOP-1B6RACQ
+
+[2021-03-27 10:21:49 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 10:21:49 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 10:21:49 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 10:21:49 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 10:21:49 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 10:21:49 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 10:24:59 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 3500@DESKTOP-1B6RACQ
+
+[2021-03-27 10:24:59 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 10:24:59 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 10:24:59 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 10:24:59 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 10:24:59 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 10:24:59 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 11:09:15 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 10008@DESKTOP-1B6RACQ
+
+[2021-03-27 11:09:15 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 11:09:15 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 11:09:15 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 11:09:15 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 11:09:15 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 11:09:15 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 11:12:47 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 6060@DESKTOP-1B6RACQ
+
+[2021-03-27 11:12:47 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 11:12:47 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 11:12:47 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 11:12:47 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 11:12:47 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 11:12:47 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 11:15:16 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 7444@DESKTOP-1B6RACQ
+
+[2021-03-27 11:15:16 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 11:15:16 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 11:15:16 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 11:15:16 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 11:15:16 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 11:15:16 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 12:52:40 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 10492@DESKTOP-1B6RACQ
+
+[2021-03-27 12:52:40 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 12:52:40 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 12:52:40 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 12:52:40 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 12:52:40 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 12:52:40 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 15:04:48 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' has been recovered (tr. 13-13)
+
+[2021-03-27 15:04:48 #2 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 6596@DESKTOP-1B6RACQ
+
+[2021-03-27 15:04:48 #3 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 15:04:48 #4 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 15:04:48 #5 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 15:04:48 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 15:04:48 #7 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 15:04:48 #8 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 15:05:59 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 1284@DESKTOP-1B6RACQ
+
+[2021-03-27 15:05:59 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 15:05:59 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 15:05:59 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 15:05:59 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 15:05:59 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 15:05:59 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 15:08:18 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 6736@DESKTOP-1B6RACQ
+
+[2021-03-27 15:08:18 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 15:08:18 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 15:08:18 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 15:08:18 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 15:08:18 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 15:08:18 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:12:06 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 916@DESKTOP-1B6RACQ
+
+[2021-03-27 16:12:06 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:12:06 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:12:06 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:12:06 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:12:06 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:12:06 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:12:06 #8 type.registry] 
+New type domain.Apustua
+
+[2021-03-27 16:12:06 #9 type.registry] 
+New type java.util.Vector<domain.Apustua>
+
+[2021-03-27 16:12:06 #10 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:12:06 #11 type.registry] 
+New type domain.Bezeroa
+
+[2021-03-27 16:12:06 #12 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:12:06 #13 type.registry] 
+New type domain.Mugimendua
+
+[2021-03-27 16:12:06 #14 type.registry] 
+New type java.util.Vector<domain.Mugimendua>
+
+[2021-03-27 16:12:06 #15 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:13:37 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 3604@DESKTOP-1B6RACQ
+
+[2021-03-27 16:13:37 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:13:37 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:13:37 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:13:38 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:13:38 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:13:38 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:13:38 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:13:38 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:13:38 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:24:02 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 10252@DESKTOP-1B6RACQ
+
+[2021-03-27 16:24:02 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:24:02 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:24:02 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:24:02 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:24:02 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:24:02 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:24:02 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:24:02 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:24:02 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:27:44 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 12084@DESKTOP-1B6RACQ
+
+[2021-03-27 16:27:44 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:27:44 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:27:44 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:27:44 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:27:44 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:27:44 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:27:44 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:27:44 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:27:44 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:29:07 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 9672@DESKTOP-1B6RACQ
+
+[2021-03-27 16:29:07 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:29:07 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:29:07 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:29:07 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:29:07 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:29:07 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:29:07 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:29:07 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:29:07 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:33:12 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 10416@DESKTOP-1B6RACQ
+
+[2021-03-27 16:33:12 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:33:12 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:33:12 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:33:12 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:33:12 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:33:12 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:33:12 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:33:12 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:33:12 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:34:36 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 7672@DESKTOP-1B6RACQ
+
+[2021-03-27 16:34:36 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:34:36 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:34:36 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:34:36 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:34:36 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:34:36 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:34:36 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:34:36 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:34:36 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-27 16:36:57 #1 store] 
+Database 'C:\Users\Josu\Desktop\Bets21-master\src\main\resources\bets.temp' is opened by 11700@DESKTOP-1B6RACQ
+
+[2021-03-27 16:36:57 #2 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-03-27 16:36:57 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-27 16:36:57 #4 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-03-27 16:36:57 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-27 16:36:57 #6 type] 
+Type domain.Event is not enhanced.
+
+[2021-03-27 16:36:57 #7 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-03-27 16:36:57 #8 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-03-27 16:36:57 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-03-27 16:36:57 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
