@@ -1,0 +1,129 @@
+
+0gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaë ë("3*⁄
+2G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaì# ì(1Î
+Ë
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaì# ì(H
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÅ˛
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaì# ì(b
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+SelectOption2getString(Ljava/lang/String;)yw
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaì ì("
+%3javax.swing.JLabel"javax.swing.JLabel∏
+µ
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaì ì(c
+%4".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JLabel*
+
+%2java.lang.Stringï
+í
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaì ì(c%
+gui.MainGUI"
+jLabelSelectOption"__id*
+
+%3javax.swing.JLabelï
+í
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaî î(
+%5javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptiond
+b
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaî1 î(:	
+%6int"__id*
+""om
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaî" î(&
+%7java.awt.Font"java.awt.Fontµ
+≤
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaî î(?
+%8"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%7java.awt.Font*
+
+Tahoma*
+	
+%6int*2◊‘
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaî î(@
+
+%9void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
+
+%5javax.swing.JLabel*
+
+%7java.awt.Font2setFont(Ljava/awt/Font;)ñ
+ì
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaï ï(
+%10javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionp
+n
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaï$ ï(/
+%11java.awt.Color"__id*
+""ÈÊ
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaï ï(0
+%12void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+
+%10javax.swing.JLabel*
+
+%11java.awt.Color2setForeground(Ljava/awt/Color;)ñ
+ì
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javañ ñ(
+%13javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptione
+c
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javañ- ñ(B
+
+%14int"__id*
+""ŒÀ
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javañ ñ(C
+%15void"-javax.swing.JLabel#setHorizontalAlignment(I)V*
+
+%13javax.swing.JLabel*
+
+
+%14int2setHorizontalAlignment(I)*
+1*Ï
+3G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaí í(ï
+í
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaí í(
+%0javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption*
+2
+1*Õ
+1G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaò	 ò(ñ
+ì
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaò	 ò(
+%16javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption"f
+G
+;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaò ò(
+
+%16javax.swing.JLabelB
+gui.MainGUI
