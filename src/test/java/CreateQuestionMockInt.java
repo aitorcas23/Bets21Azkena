@@ -84,7 +84,7 @@ public class CreateQuestionMockInt {
 					e.printStackTrace();
 				}
 			   }
-	@Test
+	/*@Test
 	//sut.createQuestion:  The event is null.
 	public void test3() {
 		try {
@@ -162,7 +162,7 @@ public class CreateQuestionMockInt {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		   }
+		   }*/
 	
 	
 	
