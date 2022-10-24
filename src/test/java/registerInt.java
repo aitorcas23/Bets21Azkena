@@ -20,6 +20,7 @@ import test.businessLogic.TestFacadeImplementation;
 public class registerInt {
 	 static BLFacadeImplementation sut;
 	 static TestFacadeImplementation testBL;
+	 static DataAccess da;
 
 	@BeforeClass
 	public static void setUpClass() {
@@ -27,11 +28,13 @@ public class registerInt {
 		
 		// you can parametrize the DataAccess used by BLFacadeImplementation
 		//DataAccess da= new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
-		DataAccess da= new DataAccess();
+		da= new DataAccess(true);
 
 		sut=new BLFacadeImplementation(da);
 		
 		testBL= new TestFacadeImplementation();
+		
+		da.open(false);
 	}
 	
 	@Test
@@ -43,6 +46,7 @@ public class registerInt {
 
 			Bezeroa bezero2 =(Bezeroa)sut.register(bezero1, "bezeroa");
 			assertEquals(bezero1,bezero2);
+			da.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -56,6 +60,7 @@ public class registerInt {
 
 			Admin admin2 =(Admin)sut.register(admin1, "admina");
 			assertEquals(admin1,admin2);
+			da.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -67,6 +72,7 @@ public class registerInt {
 
 			Langilea langile2 =(Langilea)sut.register(langile1, "langile");
 			assertEquals(langile1,langile2);
+			da.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -85,6 +91,7 @@ public class registerInt {
 			fail();
 		}catch(UserAlreadyExist e) {
 			assertTrue(true);
+			da.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -97,6 +104,7 @@ public class registerInt {
 
 		}catch(NullPointerException e) {
 		assertTrue(true);
+		da.removePertsona("Ulabak");
 
 		}catch(Exception e) {
 			e.printStackTrace();

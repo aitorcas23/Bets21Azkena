@@ -19,7 +19,9 @@ public class registerDAB {
 
 
      Langilea langile1;
+     Langilea langile2;
      Admin admin1;
+     Admin admin2;
      Bezeroa bezero1;
      Bezeroa bezero2;
 
@@ -104,7 +106,7 @@ public class registerDAB {
         try {
         bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
         db.register(bezero1, "bezeroa");
-        bezero2 = (Bezeroa)db.register(bezero1, "bezeroa" );
+        admin1 = (Admin)db.register(bezero1, "bezeroa" );
         fail();
 
         }catch(UserAlreadyExist e) {
@@ -125,9 +127,9 @@ public class registerDAB {
     public void test8() {
         try {
         admin1 = new Admin("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
-        bezero2 = (Bezeroa)db.register(admin1, "admin" );
+        admin2 = (Admin)db.register(admin1, "admin" );
 
-        assertEquals(admin1,bezero2);
+        assertEquals(admin1,admin2);
 
         }catch(Exception e) {
             e.printStackTrace();
@@ -141,8 +143,8 @@ public class registerDAB {
     public void test9() {
         try {
         langile1 = new Langilea("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
-        bezero2 = (Bezeroa)db.register(langile1, "langilea" );
-        assertEquals(langile1, bezero2);
+        langile2 = (Langilea)db.register(langile1, "langilea" );
+        assertEquals(langile1, langile2);
         }catch(Exception e) {
             e.printStackTrace();
         }
