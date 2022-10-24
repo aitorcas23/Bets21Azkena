@@ -1,6 +1,6 @@
 import static org.junit.Assert.*;
 import java.util.Date;
-import org.junit.Test;
+import org.junit.*;
 import dataAccess.DataAccess;
 import domain.ArretaElkarrizketa;
 import domain.ArretaMezua;

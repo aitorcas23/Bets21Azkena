@@ -1,5 +1,4 @@
 import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.util.Date;
 import org.junit.Test;
 import dataAccess.DataAccess;
@@ -170,10 +169,10 @@ public class removeMezuaDAB {
 			testDA.close();
 	}
 	
-	@Test
+	@Test(expected= Exception.class)
 	public void test5() {
 			BezeroartekoMezua m = new BezeroartekoMezua();
-			assertThrows(Exception.class, () -> {
-				sut.removeMezua(m);});
+			sut.removeMezua(m);
 	}
+	
 }
