@@ -14,9 +14,9 @@ import domain.Bezeroa;
 @RunWith(MockitoJUnitRunner.class)
 class apustuaEginMockINTTest {
 	
-	@Mock
+	//@Mock
 	DataAccess mockitoDA = Mockito.mock(DataAccess.class);
-	@InjectMocks
+	//@InjectMocks
 	BLFacadeImplementation sut = new BLFacadeImplementation(mockitoDA);
 	private Bezeroa b1 = new Bezeroa("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date());
 	private ArrayList<Pronostikoa> alp;

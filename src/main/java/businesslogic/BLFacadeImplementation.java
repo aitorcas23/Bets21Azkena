@@ -397,5 +397,11 @@ public class BLFacadeImplementation  implements BLFacade {
 		return emaitza;
 	}
 
+	public void removePertsona(String string) {
+		dbManager.open(false);
+		dbManager.removePertsona(string);
+		dbManager.close();
+	}
+
 }
 
