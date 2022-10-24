@@ -50,12 +50,12 @@ public class ApustuaEginDAWTest {
 		bezero3 = da.getBezeroa("JoseRamon");
 		bezero31 = da.getBezeroa("Ontsalo");
 		da.diruaSartu(100, bezero31);
-		Errepikapena f= new Errepikapena(bezero21,bezero2, 1,0,0);
+		Errepikapena f= new Errepikapena(bezero31,bezero3, 1,0,0);
 		da.errepikatu(f);
 		
 		bezero4 = da.getBezeroa("Josueeee");
 		bezero41 = da.getBezeroa("PelloJoxepe");
-		Errepikapena g= new Errepikapena(bezero21,bezero2, 1,3,0);
+		Errepikapena g= new Errepikapena(bezero41,bezero4, 1,3,0);
 		da.errepikatu(g);
 		
 		Calendar today = Calendar.getInstance();
@@ -66,7 +66,8 @@ public class ApustuaEginDAWTest {
 			month = 0;
 			year += 1;
 		}
-		event1 = da.getEvents(UtilDate.newDate(year, month, 17)).get(0);
+		event1 = da.getEvents(UtilDate.newDate(year, month, 1)).get(0);
+		//System.out.println(event1.getDescription() + event1.getQuestions().get(0).getPronostics().size() + " only in ohio");
 		event1.getQuestions().get(0).setBetMinimum(5);
 		da.close();
 	}
