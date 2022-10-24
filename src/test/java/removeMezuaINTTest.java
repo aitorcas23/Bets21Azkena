@@ -26,7 +26,6 @@ public class removeMezuaINTTest {
 	private Bezeroa b2 = new Bezeroa("b2",  "b2", "b2", "b2", "p2", "666666662", "b2@email.com", new Date());
 	private Langilea lan = new Langilea("lan",  "lan", "lan", "lan", "pasl", "000000000", "lan@email.com", new Date());
 
-	
 	@Test
 	public void test1() {
 		try {

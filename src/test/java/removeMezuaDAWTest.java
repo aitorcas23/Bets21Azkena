@@ -14,10 +14,6 @@ import test.dataAccess.TestDataAccess;
  * 
  */
 
-/**
- * @author hp
- *
- */
 public class removeMezuaDAWTest {
 
 	static TestDataAccess testDA=new TestDataAccess();
