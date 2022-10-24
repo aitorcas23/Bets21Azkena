@@ -2,34 +2,22 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import static org.junit.Assert.assertEquals;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.junit.Test;
 
 import configuration.UtilDate;
 import dataAccess.DataAccess;
 import domain.Admin;
 import domain.Bezeroa;
-import domain.BezeroartekoMezua;
-import domain.Event;
 import domain.Langilea;
 import domain.Pertsona;
-import domain.Question;
-import exceptions.EventFinished;
-import exceptions.QuestionAlreadyExist;
 import exceptions.UserAlreadyExist;
 
 import org.junit.runner.RunWith;
-import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import org.mockito.runners.MockitoJUnitRunner;
-
-import businesslogic.BLFacade;
 import businesslogic.BLFacadeImplementation;
 
 @RunWith(MockitoJUnitRunner.class)
