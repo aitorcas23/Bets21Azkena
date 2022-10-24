@@ -17,7 +17,6 @@ import domain.Langilea;
 import exceptions.UserAlreadyExist;
 import test.dataAccess.TestDataAccess;
 
-
 public class removeMezuaINTTest {
 
 	static TestDataAccess testDA=new TestDataAccess();

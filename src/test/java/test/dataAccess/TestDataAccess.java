@@ -32,7 +32,6 @@ public class TestDataAccess {
 	public TestDataAccess()  {
 		
 		System.out.println("Creating TestDataAccess instance");
-
 		open();
 		
 	}
