@@ -1,7 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Bets21</groupId>
   <artifactId>Bets21</artifactId>
@@ -30,77 +27,69 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
-	<sonar.organization>leiree7</sonar.organization>
-	<sonar.host.url>https://sonarcloud.io</sonar.host.url>		
-	<sonar.projectKey>proiektuproba</sonar.projectKey>		
-	<sonar.login>579c4fcf7ac09dd42cd7f3ce4da56b33ec47d49f</sonar.login>
+	<sonar.organization>aitorcas</sonar.organization>
+  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
 
-<!-- https://mvnrepository.com/artifact/junit/junit	-->
+<!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependencies>
 	<dependency>
-		<groupId>junit</groupId>
-		<artifactId>junit</artifactId>
-		<version>4.5</version>
-		<scope>test</scope>
-	</dependency>
-	<dependency>
-		<groupId>org.junit.jupiter</groupId>
-		<artifactId>junit-jupiter-engine</artifactId>
-		<version>5.5.2</version>
-		<scope>test</scope>
-	</dependency>
-	<dependency>
-		<groupId>com.toedter</groupId>
-		<artifactId>jcalendar</artifactId>
-		<version>1.4</version>
-	</dependency>
-	<!-- API	JAXB	-->
-	<dependency>
-		<groupId>jakarta.xml.bind</groupId>
-		<artifactId>jakarta.xml.bind-api</artifactId>
-		<version>2.3.2</version>
-	</dependency>
-	<!-- Runtime	-->
-	<dependency>
-		<groupId>org.glassfish.jaxb</groupId>
-		<artifactId>jaxb-runtime</artifactId>
-		<version>2.3.2</version>
-	</dependency>
-	<!-- API	JAX-WS	-->
-	<dependency>
-		<groupId>jakarta.xml.ws</groupId>
-		<artifactId>jakarta.xml.ws-api</artifactId>
-		<version>2.3.2</version>
-	</dependency>
-	<!-- Runtime	-->
-	<dependency>
-		<groupId>com.sun.xml.ws</groupId>
-		<artifactId>jaxws-rt</artifactId>
-		<version>2.3.2</version>
-	</dependency>
-	<dependency>
-		<groupId>com.objectdb</groupId>
-		<artifactId>objectdb</artifactId>
-		<version>2.8.1</version>
-	</dependency>
-	<dependency>
-		<groupId>org.eclipse.persistence</groupId>
-		<artifactId>javax.persistence</artifactId>
-		<version>2.1.0</version>
-	</dependency>
-	<dependency>
-		<groupId>javax.transaction</groupId>
-		<artifactId>jta</artifactId>
-		<version>1.1</version>
-	</dependency>
-<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all	-->
+  	  <groupId>junit</groupId>
+  	  <artifactId>junit</artifactId>
+  	  <version>4.5</version>
+ 	   <scope>test</scope>
+	</dependency> 
 		<dependency>
-		<groupId>org.mockito</groupId>
-		<artifactId>mockito-core</artifactId>
-		<version>3.0.0</version>
-		<scope>test</scope>
-	</dependency>
-</dependencies>
+			<groupId>com.toedter</groupId>
+			<artifactId>jcalendar</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<!-- API JAXB -->
+		<dependency>
+			<groupId>jakarta.xml.bind</groupId>
+			<artifactId>jakarta.xml.bind-api</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+
+		<!-- Runtime -->
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+
+
+		<!-- API JAX-WS -->
+		<dependency>
+			<groupId>jakarta.xml.ws</groupId>
+			<artifactId>jakarta.xml.ws-api</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+		
+		<!-- Runtime -->
+		<dependency>
+			<groupId>com.sun.xml.ws</groupId>
+			<artifactId>jaxws-rt</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.objectdb</groupId>
+			<artifactId>objectdb</artifactId>
+			<version>2.8.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>javax.persistence</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>		
+
+	</dependencies>
 
 </project>
