@@ -1,95 +1,107 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>Bets21</groupId>
-  <artifactId>Bets21</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0	
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		<modelVersion>4.0.0</modelVersion>
+		<groupId>upv-ehu-iso2</groupId>
+		<artifactId>Bets21</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 <build>
-    <plugins>
-	<plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.19.1</version>
-          <configuration>
-               <testFailureIgnore>true</testFailureIgnore>
-            </configuration>
-        </plugin>
-   </plugins>
+				<plugins>
+						<plugin>
+		 <groupId>org.jacoco</groupId>
+		 <artifactId>jacoco-maven-plugin</artifactId>
+		 <version>0.8.6</version>
+<executions>
+						 <execution>
+								 <id>prepare-agent</id>
+								 <goals>
+									 <goal>prepare-agent</goal>
+								 </goals>
+						 </execution>
+						 <execution>
+								 <id>report</id>
+								 <goals>
+									 <goal>report</goal>
+								 </goals>
+					 </execution>
+				 </executions>
+</plugin>
+			</plugins>
 </build>
- <repositories>
-	<repository>
-		<id>objectdb</id>
-		<name>ObjectDB Repository</name>
-		<url>https://m2.objectdb.com</url>
-	</repository>
+<repositories>
+<repository>
+<id>objectdb</id>
+<name>ObjectDB	Repository</name>
+<url>https://m2.objectdb.com</url>
+</repository>
 </repositories>
-
 <properties>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
-	<sonar.organization>aitorcas</sonar.organization>
-  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+				<maven.compiler.target>1.8</maven.compiler.target>
+				<maven.compiler.source>1.8</maven.compiler.source>
+				<sonar.organization>aitorcas</sonar.organization>
+				<sonar.host.url>https://sonarcloud.io</sonar.host.url>		
+				<sonar.projectKey>aitorcas23_Bets21Azkena</sonar.projectKey>		
+				<sonar.login>f3d49a2401acb19cd3f458a111dd602961b1b376</sonar.login>
 </properties>
-
-<!-- https://mvnrepository.com/artifact/junit/junit -->
+<!-- https://mvnrepository.com/artifact/junit/junit	-->
 <dependencies>
-	<dependency>
-  	  <groupId>junit</groupId>
-  	  <artifactId>junit</artifactId>
-  	  <version>4.5</version>
- 	   <scope>test</scope>
-	</dependency> 
-		<dependency>
-			<groupId>com.toedter</groupId>
-			<artifactId>jcalendar</artifactId>
-			<version>1.4</version>
-		</dependency>
-
-		<!-- API JAXB -->
-		<dependency>
-			<groupId>jakarta.xml.bind</groupId>
-			<artifactId>jakarta.xml.bind-api</artifactId>
-			<version>2.3.2</version>
-		</dependency>
-
-		<!-- Runtime -->
-		<dependency>
-			<groupId>org.glassfish.jaxb</groupId>
-			<artifactId>jaxb-runtime</artifactId>
-			<version>2.3.2</version>
-		</dependency>
-
-
-		<!-- API JAX-WS -->
-		<dependency>
-			<groupId>jakarta.xml.ws</groupId>
-			<artifactId>jakarta.xml.ws-api</artifactId>
-			<version>2.3.2</version>
-		</dependency>
-		
-		<!-- Runtime -->
-		<dependency>
-			<groupId>com.sun.xml.ws</groupId>
-			<artifactId>jaxws-rt</artifactId>
-			<version>2.3.2</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.objectdb</groupId>
-			<artifactId>objectdb</artifactId>
-			<version>2.8.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>javax.persistence</artifactId>
-			<version>2.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.transaction</groupId>
-			<artifactId>jta</artifactId>
-			<version>1.1</version>
-		</dependency>		
-
-	</dependencies>
-
+<dependency>
+		 		<groupId>junit</groupId>
+		 		<artifactId>junit</artifactId>
+		 		<version>4.5</version>
+			<scope>test</scope>
+</dependency>
+<dependency>
+<groupId>com.toedter</groupId>
+<artifactId>jcalendar</artifactId>
+<version>1.4</version>
+</dependency>
+<!-- API	JAXB	-->
+<dependency>
+<groupId>jakarta.xml.bind</groupId>
+<artifactId>jakarta.xml.bind-api</artifactId>
+<version>2.3.2</version>
+</dependency>
+<!-- Runtime	-->
+<dependency>
+<groupId>org.glassfish.jaxb</groupId>
+<artifactId>jaxb-runtime</artifactId>
+<version>2.3.2</version>
+</dependency>
+<!-- API	JAX-WS	-->
+<dependency>
+<groupId>jakarta.xml.ws</groupId>
+<artifactId>jakarta.xml.ws-api</artifactId>
+<version>2.3.2</version>
+</dependency>
+<!-- Runtime	-->
+<dependency>
+<groupId>com.sun.xml.ws</groupId>
+<artifactId>jaxws-rt</artifactId>
+<version>2.3.2</version>
+</dependency>
+<dependency>
+<groupId>com.objectdb</groupId>
+<artifactId>objectdb</artifactId>
+<version>2.8.1</version>
+</dependency>
+<dependency>
+<groupId>org.eclipse.persistence</groupId>
+<artifactId>javax.persistence</artifactId>
+<version>2.1.0</version>
+</dependency>
+<dependency>
+<groupId>javax.transaction</groupId>
+<artifactId>jta</artifactId>
+<version>1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all	-->
+<dependency>
+				 <groupId>org.mockito</groupId>
+				 <artifactId>mockito-all</artifactId>
+				 <version>1.9.5</version>
+				 <scope>test</scope>
+</dependency>
+</dependencies>
 </project>
