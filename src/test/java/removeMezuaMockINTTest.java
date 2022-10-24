@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.*;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.*;
 import businesslogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 import domain.ArretaMezua;
