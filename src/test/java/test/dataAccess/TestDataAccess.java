@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Vector;
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -118,27 +118,32 @@ public class TestDataAccess {
 			return mezuBerria;
 	    }
 	
-		public Pertsona register(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza, String telefonoZbkia, String emaila, Date jaiotzeData, String mota) throws UserAlreadyExist{
+		public Pertsona register(Pertsona per, String mota) throws UserAlreadyExist{
 			TypedQuery<Pertsona> query = db.createQuery("SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1", Pertsona.class);
-			query.setParameter(1, erabiltzaileIzena);
+			query.setParameter(1, per.erabiltzaileIzena);
 			List<Pertsona> pertsona = query.getResultList();
 			if(!pertsona.isEmpty()) {
 				throw new UserAlreadyExist();
 			}else {
-				Pertsona berria = null;
-				if(mota.equals("admin")) {
-					berria = new Admin(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila, jaiotzeData);
-				}else if (mota.equals("langilea")) {
-					berria = new Langilea(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila, jaiotzeData);
-				}else if (mota.equals("bezeroa")) {
-					berria = new Bezeroa(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila, jaiotzeData);
-				}
-				db.getTransaction().begin();
-				db.persist(berria);
-				db.getTransaction().commit();
-				return berria;
+				return pertsonaSortu(per, mota);
 			}
 		}
+		
+		private Pertsona pertsonaSortu(Pertsona per, String mota) {
+			Pertsona berria = null;
+			if(mota.equals("admin")) {
+				berria = new Admin(per.izena, per.abizena1, per.abizena2, per.erabiltzaileIzena, per.pasahitza, per.telefonoZbkia, per.email, per.jaiotzeData);
+			}else if (mota.equals("langilea")) {
+				berria = new Langilea(per.izena, per.abizena1, per.abizena2, per.erabiltzaileIzena, per.pasahitza, per.telefonoZbkia, per.email, per.jaiotzeData);
+			}else if (mota.equals("bezeroa")) {
+				berria = new Bezeroa(per.izena, per.abizena1, per.abizena2, per.erabiltzaileIzena, per.pasahitza, per.telefonoZbkia, per.email, per.jaiotzeData);
+			}
+			db.getTransaction().begin();
+			db.persist(berria);
+			db.getTransaction().commit();
+			return berria;
+		}
+		
 		public boolean removeMezua(Mezua mezua) {
 			if(mezua instanceof BezeroartekoMezua) {
 				BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());

@@ -10,9 +10,6 @@ import domain.ArretaMezua;
 import domain.Bezeroa;
 import domain.BezeroartekoMezua;
 import domain.Langilea;
-import domain.Mezua;
-import domain.Pertsona;
-import exceptions.QuestionAlreadyExist;
 import exceptions.UserAlreadyExist;
 import test.dataAccess.TestDataAccess;
 
@@ -35,14 +32,14 @@ public class removeMezuaDAWTest {
 	public void test1() {
 		try {
 			testDA.open();
-			testDA.register("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date(), "bezeroa");
+			testDA.register(b1, "bezeroa");
 			testDA.close();
 		}catch (Exception e) {
 			System.out.println("bezeroa jada exixtitzen da");
 		}
 		try {
 			testDA.open();
-			testDA.register("b2",  "b2", "b2", "b2", "p2", "666666662", "b2@email.com", new Date(), "bezeroa");
+			testDA.register(b2, "bezeroa");
 			testDA.close();
 		}
 		catch (Exception e) {
@@ -79,7 +76,7 @@ public class removeMezuaDAWTest {
 		boolean obtained = true;
 		try {
 			testDA.open();
-			testDA.register("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date(), "bezeroa");
+			testDA.register(b1, "bezeroa");
 			testDA.close();
 		}
 		catch (UserAlreadyExist e) {
@@ -87,7 +84,7 @@ public class removeMezuaDAWTest {
 		}
 		try {
 			testDA.open();
-			testDA.register("lan",  "lan", "lan", "lan", "pasl", "000000000", "lan@email.com", new Date(), "langilea");
+			testDA.register(lan, "langilea");
 			testDA.close();
 		}catch (Exception e) {
 			System.out.println("bezeroa jada exixtitzen da");
@@ -117,7 +114,7 @@ public class removeMezuaDAWTest {
 		boolean expected = true;
 		try {
 			testDA.open();
-			testDA.register("b2",  "b2", "b2", "b2", "p2", "666666662", "b2@email.com", new Date(), "bezeroa");
+			testDA.register(b2, "bezeroa");
 			testDA.close();
 		}
 		catch (UserAlreadyExist e) {
@@ -125,7 +122,7 @@ public class removeMezuaDAWTest {
 		}
 		try {
 			testDA.open();
-			testDA.register("lan",  "lan", "lan", "lan", "pasl", "000000000", "lan@email.com", new Date(), "langilea");
+			testDA.register(lan, "langilea");
 			testDA.close();
 		}
 		catch (UserAlreadyExist e) {
@@ -142,7 +139,7 @@ public class removeMezuaDAWTest {
 		e = testDA.bezeroaEsleitu(testDA.getLangilea(lan.getErabiltzaileIzena()));
 		assertEquals(expected, obtained);
 		assertTrue(!testDA.getMezuak(b2).contains(m));
-		assertNull(e);
+		assertFalse(b2.getArretaElkarrizketak().contains(e));
 		testDA.removePertsona(b2);
 		testDA.removePertsona(lan);
 		testDA.close();
@@ -155,7 +152,7 @@ public class removeMezuaDAWTest {
 			boolean expected = true;
 			try {
 				testDA.open();
-				testDA.register("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date(), "bezeroa");
+				testDA.register(b1, "bezeroa");
 				testDA.close();
 			}
 			catch (UserAlreadyExist e) {
@@ -163,7 +160,7 @@ public class removeMezuaDAWTest {
 			}
 			try {
 				testDA.open();
-				testDA.register("lan",  "lan", "lan", "lan", "pasl", "000000000", "lan@email.com", new Date(), "langilea");
+				testDA.register(lan, "langilea");
 				testDA.close();
 			}
 			catch (UserAlreadyExist e) {

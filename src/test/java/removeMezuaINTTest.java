@@ -1,23 +1,19 @@
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
+
 
 import java.util.Date;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
 
-import businesslogic.BLFacadeImplementation;
+
+
 import dataAccess.DataAccess;
 import domain.ArretaElkarrizketa;
 import domain.ArretaMezua;
 import domain.Bezeroa;
 import domain.BezeroartekoMezua;
 import domain.Langilea;
-import domain.Mezua;
+
 import exceptions.UserAlreadyExist;
 import test.dataAccess.TestDataAccess;
 
@@ -29,20 +25,20 @@ public class removeMezuaINTTest {
 	private Bezeroa b1 = new Bezeroa("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date());
 	private Bezeroa b2 = new Bezeroa("b2",  "b2", "b2", "b2", "p2", "666666662", "b2@email.com", new Date());
 	private Langilea lan = new Langilea("lan",  "lan", "lan", "lan", "pasl", "000000000", "lan@email.com", new Date());
-	private Bezeroa bez = new Bezeroa("bez",  "bez", "bez", "bez", "pas", "000000001", "bez@email.com", new Date());
+	
 	
 	@Test
 	public void test1() {
 		try {
 			testDA.open();
-			testDA.register("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date(), "bezeroa");
+			testDA.register(b1, "bezeroa");
 			testDA.close();
 		}catch (Exception e) {
 			System.out.println("bezeroa jada exixtitzen da");
 		}
 		try {
 			testDA.open();
-			testDA.register("b2",  "b2", "b2", "b2", "p2", "666666662", "b2@email.com", new Date(), "bezeroa");
+			testDA.register(b2, "bezeroa");
 			testDA.close();
 		}
 		catch (Exception e) {
@@ -66,8 +62,8 @@ public class removeMezuaINTTest {
 		String mezua = "mezua";
 		try {
 			testDA.open();
-			testDA.register("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date(), "bezeroa");
-			testDA.register("lan",  "lan", "lan", "lan", "pasl", "000000000", "lan@email.com", new Date(), "langilea");
+			testDA.register(b1, "bezeroa");
+			testDA.register(lan, "langilea");
 			testDA.close();
 		}
 		catch (UserAlreadyExist e) {
@@ -75,7 +71,7 @@ public class removeMezuaINTTest {
 		}
 		testDA.open();
 		testDA.arretaElkarrizketaSortu(testDA.getBezeroa(b1.getErabiltzaileIzena()), gaia, mezua);
-		ArretaElkarrizketa e = testDA.bezeroaEsleitu(testDA.getLangilea(lan.getErabiltzaileIzena()));
+		ArretaElkarrizketa e = testDA.bezeroaEsleitu(testDA.getLangilea("lan"));
 		testDA.arretaMezuaBidali(e, mezua, true);
 		e = testDA.getArretaElkarrizketa(e.getIdentifikadorea());
 		ArretaMezua m = e.getMezuak().firstElement();

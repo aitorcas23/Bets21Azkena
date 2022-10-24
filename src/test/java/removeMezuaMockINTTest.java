@@ -8,7 +8,6 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import businesslogic.BLFacadeImplementation;
-import domain.Mezua;
 import dataAccess.DataAccess;
 import domain.ArretaMezua;
 import domain.BezeroartekoMezua;
