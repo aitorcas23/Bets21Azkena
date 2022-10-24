@@ -1,8 +1,6 @@
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import java.util.Date;
-
 import org.junit.Test;
 import dataAccess.DataAccess;
 import domain.ArretaElkarrizketa;
