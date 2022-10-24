@@ -1,13 +1,7 @@
-
-
 import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
+import org.junit.*;
 import java.util.ArrayList;
 import java.util.Calendar;
-
-import org.junit.Test;
-
 import configuration.UtilDate;
 import dataAccess.DataAccess;
 import domain.Bezeroa;
@@ -101,37 +95,37 @@ public class ApustuaEginDABTest {
 	
 	
 	
-	@Test
+	@Test(expected = Exception.class)
 	public void test4() {
 		ArrayList<Pronostikoa> pronostikoak = new ArrayList<Pronostikoa>();
 		da.open(false);
 		
 		bezero2 = da.getBezeroa(bezero2.getErabiltzaileIzena());
-		assertThrows(Exception.class, () -> { da.apustuaEgin(pronostikoak, 10, bezero2); });
+		da.apustuaEgin(pronostikoak, 10, bezero2);
 		da.close();
 		
 		//Testa ez du ondo funtzionatzen ez dalako errorerik sortzen, apustua ondo egiten da.
 	}
 	
-	@Test
+	@Test(expected = Exception.class)
 	public void test5() {
 		ArrayList<Pronostikoa> pronostikoak = new ArrayList<Pronostikoa>();
 		da.open(false);
 		
 		bezero2 = da.getBezeroa(bezero2.getErabiltzaileIzena());
-		assertThrows(Exception.class, () -> { da.apustuaEgin(pronostikoak, 4, bezero2); });
+		da.apustuaEgin(pronostikoak, 4, bezero2);
 		da.close();
 		
 		//Testa ez du ondo funtzionatzen ez dalako errorerik sortzen, apustua ondo egiten da.
 	}
 	
-	@Test
+	@Test(expected = Exception.class)
 	public void test6() {
 		ArrayList<Pronostikoa> pronostikoak = new ArrayList<Pronostikoa>();
 		da.open(false);
 		
 		bezero2 = da.getBezeroa(bezero2.getErabiltzaileIzena());
-		assertThrows(Exception.class, () -> { da.apustuaEgin(pronostikoak, 101, bezero2); });
+		da.apustuaEgin(pronostikoak, 101, bezero2);
 		da.close();
 		
 		//Testa ez du ondo funtzionatzen ez dalako errorerik sortzen, apustua ondo egiten da.
