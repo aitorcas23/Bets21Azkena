@@ -1,50 +1,48 @@
-import static org.junit.Assert.assertEquals;
+package test.gureTest;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
-
-import org.junit.BeforeClass;
 import org.junit.Test;
-
-
-import businesslogic.BLFacadeImplementation;
 
 import configuration.UtilDate;
 import dataAccess.DataAccess;
 import domain.Admin;
 import domain.Bezeroa;
 import domain.Langilea;
+import domain.Pertsona;
 import exceptions.UserAlreadyExist;
-import test.businessLogic.TestFacadeImplementation;
 
-public class registerInt {
-	 static BLFacadeImplementation sut;
-	 static TestFacadeImplementation testBL;
-	 static DataAccess da;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
 
-	@BeforeClass
-	public static void setUpClass() {
-		//sut= new BLFacadeImplementation();
-		
-		// you can parametrize the DataAccess used by BLFacadeImplementation
-		//DataAccess da= new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
-		da= new DataAccess(true);
+import org.mockito.runners.MockitoJUnitRunner;
+import businesslogic.BLFacadeImplementation;
 
-		sut=new BLFacadeImplementation(da);
-		
-		testBL= new TestFacadeImplementation();
-	}
-	
-	@Test
+@RunWith(MockitoJUnitRunner.class)
+public class registerMockInt {
+	@Mock
+	DataAccess mockitoDA;
+	@InjectMocks
+	BLFacadeImplementation sut;
+
+
 	//sut.createQuestion:  The event has one question with a queryText. 
+
+
+	@Test
+	//sut.createQuestion:  The event has NOT a question with a queryText.
 	public void test1() {
 		try {
-
 			Bezeroa bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
+
+			Mockito.doReturn(bezero1).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
+
 
 			Bezeroa bezero2 =(Bezeroa)sut.register(bezero1, "bezeroa");
 			assertEquals(bezero1,bezero2);
-			sut.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -54,11 +52,12 @@ public class registerInt {
 	public void test2() {
 		try {
 			Admin admin1 = new Admin("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
-			
 
-			Admin admin2 =(Admin)sut.register(admin1, "admin");
+			Mockito.doReturn(admin1).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
+
+
+			Admin admin2 =(Admin)sut.register(admin1, "admina");
 			assertEquals(admin1,admin2);
-			sut.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -68,9 +67,11 @@ public class registerInt {
 		try {
 			Langilea langile1 = new Langilea("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
 
-			Langilea langile2 =(Langilea)sut.register(langile1, "langilea");
+			Mockito.doReturn(langile1).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
+
+
+			Langilea langile2 =(Langilea)sut.register(langile1, "langile");
 			assertEquals(langile1,langile2);
-			sut.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -80,16 +81,15 @@ public class registerInt {
 	public void test4() {
 		try {
 			Bezeroa bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
-			sut.register(bezero1,"bezeroa");
+
+			Mockito.doThrow(UserAlreadyExist.class).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
 			
-			
-			bezero1 =(Bezeroa)sut.register(bezero1, "bezeroa");
+			Bezeroa bezero2 =(Bezeroa)sut.register(bezero1, "bezero");
 
 			//Programa honera ezin du iritsi
 			fail();
 		}catch(UserAlreadyExist e) {
 			assertTrue(true);
-			sut.removePertsona("Ulabak");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -97,12 +97,14 @@ public class registerInt {
 	@Test
 	public void test5() {
 		try {
-			Bezeroa bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
-			bezero1 =(Bezeroa)sut.register(bezero1, "bezeroa");
+			Bezeroa bezero1 = null;
 
-		}catch(NullPointerException e) {
-		assertTrue(true);
-		sut.removePertsona("Ulabak");
+			Mockito.doReturn(null).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
+			Bezeroa bezero11 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
+
+			Bezeroa bezero2 =(Bezeroa)sut.register(bezero11, "bezero");
+
+			assertEquals(bezero2,bezero1);
 
 		}catch(Exception e) {
 			e.printStackTrace();
@@ -115,4 +117,3 @@ public class registerInt {
 
 				
 	
-			
