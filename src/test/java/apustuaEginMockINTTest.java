@@ -21,7 +21,7 @@ public class apustuaEginMockINTTest {
 	BLFacadeImplementation sut;
 	
 	@Test
-	void test1() {
+	public void test1() {
 		Bezeroa b1 = new Bezeroa("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", UtilDate.newDate(2002, 9, 11));
 		ArrayList<Pronostikoa> alp;
 		alp = new ArrayList<Pronostikoa>();

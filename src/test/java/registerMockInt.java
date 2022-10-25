@@ -81,7 +81,7 @@ public class registerMockInt {
 		try {
 			Bezeroa bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
 
-			Mockito.doThrow(new UserAlreadyExist()).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
+			Mockito.doThrow(UserAlreadyExist.class).when(mockitoDA).register(Mockito.any(Pertsona.class),Mockito.anyString());
 			
 			Bezeroa bezero2 =(Bezeroa)sut.register(bezero1, "bezero");
 
