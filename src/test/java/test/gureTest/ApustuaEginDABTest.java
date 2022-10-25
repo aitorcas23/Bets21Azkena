@@ -18,7 +18,7 @@ public class ApustuaEginDABTest {
 	static Bezeroa bezero1;
 	static Bezeroa bezero2;
 	static Bezeroa bezero21;
-	
+	//
 	static Event event1;
 	
 	@BeforeClass
