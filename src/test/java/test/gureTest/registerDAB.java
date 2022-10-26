@@ -50,7 +50,7 @@ public class registerDAB {
     @Test
     public void test2() {
         try {
-        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
+        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
         bezero2 = (Bezeroa)db.register(bezero1, "bezeroa" );
         }catch(Exception e) {
             assertTrue(true);
@@ -61,7 +61,7 @@ public class registerDAB {
     @Test
     public void test3() {
         try {
-        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
+        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "12345000006789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
         bezero2 = (Bezeroa)db.register(bezero1, "bezeroa" );
         }catch(Exception e) {
             assertTrue(true);
@@ -71,7 +71,7 @@ public class registerDAB {
     @Test
     public void test4() {
         try {
-        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
+        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2022, 9, 11));
         bezero2 = (Bezeroa)db.register(bezero1, "bezeroa" );
         }catch(Exception e) {
             assertTrue(true);
@@ -82,7 +82,7 @@ public class registerDAB {
     @Test
     public void test5() {
         try {
-        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
+        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak", UtilDate.newDate(2002, 9, 11));
         bezero2 = (Bezeroa)db.register(bezero1, "bezeroa" );
         }catch(Exception e) {
             assertTrue(true);
@@ -90,20 +90,9 @@ public class registerDAB {
 
     }
 
-   
-    @Test
-    public void test6() {
-        try {
-        bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
-        bezero2 = (Bezeroa)db.register(bezero1, "bezeroa" );
-        }catch(Exception e) {
-            assertTrue(true);
-        }
-
-
-    }
+ 
 @Test
-    public void test7() {
+    public void test6() {
         try {
         bezero1 = new Bezeroa("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
         db.register(bezero1, "bezeroa");
@@ -125,7 +114,7 @@ public class registerDAB {
     }
 
     @Test
-    public void test8() {
+    public void test7() {
         try {
         admin1 = new Admin("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
         admin2 = (Admin)db.register(admin1, "admin" );
@@ -141,7 +130,7 @@ public class registerDAB {
     }
 
     @Test
-    public void test9() {
+    public void test8() {
         try {
         langile1 = new Langilea("Unax", "Labaka", "Zubimendi", "Ulabak", "Unax1234", "123456789", "unaxlabak@gmail.com", UtilDate.newDate(2002, 9, 11));
         langile2 = (Langilea)db.register(langile1, "langilea" );
