@@ -13,7 +13,7 @@ import exceptions.PronosticAlreadyExist;
 
 import org.junit.BeforeClass;
 
-public class ApustuaEginDABTest {
+public class ApustuaEginDAB {
 	private static DataAccess da;
 	static Bezeroa bezero1;
 	static Bezeroa bezero2;
