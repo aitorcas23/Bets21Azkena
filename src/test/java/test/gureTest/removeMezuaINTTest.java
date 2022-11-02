@@ -62,6 +62,13 @@ public class removeMezuaINTTest {
 		try {
 			testDA.open();
 			testDA.register(b1, "bezeroa");
+			testDA.close();
+		}
+		catch (UserAlreadyExist e) {
+			System.out.println("User exists");
+		}
+		try {
+			testDA.open();
 			testDA.register(lan, "langilea");
 			testDA.close();
 		}
