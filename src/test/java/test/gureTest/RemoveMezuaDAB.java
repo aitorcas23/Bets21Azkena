@@ -11,7 +11,7 @@ import domain.Langilea;
 import exceptions.UserAlreadyExist;
 import test.dataAccess.TestDataAccess;
 
-public class removeMezuaDAB {
+public class RemoveMezuaDAB {
 	static TestDataAccess testDA=new TestDataAccess();
 	static DataAccess sut=new DataAccess(true);
 	private Bezeroa b1 = new Bezeroa("b1",  "b1", "b1", "b1", "p1", "666666661", "b1@email.com", new Date());

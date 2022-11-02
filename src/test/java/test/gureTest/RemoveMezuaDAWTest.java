@@ -16,7 +16,7 @@ import test.dataAccess.TestDataAccess;
  */
 
 
-public class removeMezuaDAW {
+public class RemoveMezuaDAWTest {
 
 	static TestDataAccess testDA=new TestDataAccess();
 	static DataAccess sut=new DataAccess(true);

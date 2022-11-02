@@ -12,7 +12,7 @@ import domain.ArretaMezua;
 import domain.BezeroartekoMezua;
 
 @RunWith(MockitoJUnitRunner.class)
-public class removeMezuaMockINTTest {
+public class RemoveMezuaMockINTTest {
 
 	@Mock
 	DataAccess mockitoDA;
