@@ -19,6 +19,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <include>*INT.java</include>
 <include>*DAB.java</include>
 <include>*DAW.java</include>
+<include>*Test.java</include>
 </includes>
 </configuration>
 </plugin>
