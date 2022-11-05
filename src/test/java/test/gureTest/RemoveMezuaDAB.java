@@ -1,15 +1,23 @@
 package test.gureTest;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
 import java.util.Date;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
-import dataAccess.DataAccess;
-import domain.ArretaElkarrizketa;
-import domain.ArretaMezua;
-import domain.Bezeroa;
-import domain.BezeroartekoMezua;
-import domain.Langilea;
-import exceptions.UserAlreadyExist;
 import test.dataAccess.TestDataAccess;
+import domain.*;
+import configuration.UtilDate;
+import dataAccess.DataAccess;
+import domain.Admin;
+import domain.Bezeroa;
+import domain.Langilea;
+import domain.Pertsona;
+import exceptions.UserAlreadyExist;
 
 public class RemoveMezuaDAB {
 	static TestDataAccess testDA=new TestDataAccess();
@@ -128,7 +136,7 @@ public class RemoveMezuaDAB {
 		e = testDA.bezeroaEsleitu(testDA.getLangilea(lan.getErabiltzaileIzena()));
 		assertEquals(expected, obtained);
 		assertTrue(!testDA.getMezuak(b2).contains(m));
-		assertNull(e);
+		assertEquals(e, null);
 		testDA.removePertsona(b2);
 		testDA.removePertsona(lan);
 		testDA.close();
