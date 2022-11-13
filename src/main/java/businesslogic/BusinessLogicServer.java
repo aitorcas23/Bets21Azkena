@@ -13,6 +13,8 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import configuration.ConfigXML;
+import domain.Event;
+import domain.ExtendedEventIterator;
 
 import javax.swing.JTextArea;
 import javax.xml.ws.Endpoint;
@@ -22,6 +24,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.Date;
+import java.util.List;
 
 /**
  * It runs the business logic server as a separate process.
@@ -126,6 +130,11 @@ public class BusinessLogicServer extends JDialog {
 		  }
 
 	  }
+	}
+	public ExtendedEventIterator<Event> getEventIterator(Date date) {
+		List<Event> list = server.getEvents(date);
+		ExtendedEventIterator<Event> i = new ExtendedEventIterator<Event>(list);
+		return i;
 	}
 }
 
