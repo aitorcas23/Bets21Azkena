@@ -1,5 +1,6 @@
 package domain;
 
+import java.net.MalformedURLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,14 +18,19 @@ public class IteratorProba {
 		Locale.setDefault(new Locale(c.getLocale()));
 		boolean isLocal=true;
 		BLFacadeFactory blFacade = new BLFacadeFactory();
-		Date date = parseDate("2022-11-14"); 
-		BusinessLogicServer facade= new BusinessLogicServer();
-		ExtendedEventIterator<Event> i=facade.getEventIterator(date);
+		BLFacade facade = null;
+		try {
+			facade = blFacade.createBLFacade(c);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
 		try {
 			blFacade.createBLFacade(c);
 		} catch (Exception ex) {
 			System.out.println(ex.getMessage());
 		}
+		Date date = parseDate("2022-11-14"); 
+		ExtendedEventIterator<Event> i=facade.getEventIterator(date);
 		Event ev;
 		i.goLast();
 		while (i.hasPrevious()){
@@ -44,5 +50,5 @@ public class IteratorProba {
 	     } catch (ParseException e) {
 	         return null;
 	     }
-	  }
+	}
 }
