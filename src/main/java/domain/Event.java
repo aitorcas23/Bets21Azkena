@@ -1,7 +1,7 @@
 package domain;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Vector;
 import java.util.Date;
 import java.util.Vector;
 
@@ -27,13 +27,13 @@ public class Event implements Serializable {
 	private String description; 
 	private Date eventDate;
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	private ArrayList<Question> questions=new ArrayList<Question>();
+	private Vector<Question> questions=new Vector<Question>();
 
-	public ArrayList<Question> getQuestions() {
+	public Vector<Question> getQuestions() {
 		return questions;
 	}
 
-	public void setQuestions(ArrayList<Question> questions) {
+	public void setQuestions(Vector<Question> questions) {
 		this.questions = questions;
 	}
 
