@@ -15,7 +15,7 @@ import javax.swing.JLabel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
+import java.util.Vector;
 import java.util.List;
 import java.util.ResourceBundle;
 import java.awt.event.ActionEvent;
@@ -178,7 +178,7 @@ public class ErrepikatzekoEskaeraEginGUI extends JFrame {
 						portzentaia.setText(ResourceBundle.getBundle("Etiquetas").getString("PercentageSuccess")+" % "+0);
 
 					}
-					ArrayList<Double> x = selectedBezeroa.getEtekinInformazioa();
+					Vector<Double> x = selectedBezeroa.getEtekinInformazioa();
 					jokatua.setText(ResourceBundle.getBundle("Etiquetas").getString("Played")+" "+x.get(0));
 					irabazia.setText(ResourceBundle.getBundle("Etiquetas").getString("Win")+" "+x.get(1));
 					etekina.setText(ResourceBundle.getBundle("Etiquetas").getString("Yield")+" "+x.get(2));

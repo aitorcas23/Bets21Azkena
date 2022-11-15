@@ -19,7 +19,7 @@ import domain.Langilea;
 public class ArretaZerbitzuaEmanGUI extends JFrame {
 	LangileaGUI aurrekoa;
 	private Langilea langilea; 
-	//private ArrayList<BezeroartekoMezuaContainer> mezuak;
+	//private Vector<BezeroartekoMezuaContainer> mezuak;
 	
 	private static final long serialVersionUID = 1L;
 	
