@@ -1,7 +1,7 @@
 package domain;
 
 import java.io.*;
-import java.util.Vector;
+import java.util.ArrayList;
 import java.util.Vector;
 
 import javax.persistence.*;
@@ -29,7 +29,7 @@ public class Question implements Serializable {
 	@XmlIDREF
 	private Event event;
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	private Vector<Pronostikoa> pronostikoak=new Vector<Pronostikoa>();
+	private ArrayList<Pronostikoa> pronostikoak=new ArrayList<Pronostikoa>();
 
 	public Question(){
 		super();
@@ -170,7 +170,7 @@ public class Question implements Serializable {
 		return berria;
 	}
 	
-	public Vector<Pronostikoa> getPronostics(){
+	public ArrayList<Pronostikoa> getPronostics(){
 		return pronostikoak;
 	}
 

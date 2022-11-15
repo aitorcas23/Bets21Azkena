@@ -1,6 +1,6 @@
 package test.dataAccess;
 
-import java.util.Vector;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -97,7 +97,7 @@ public class TestDataAccess {
 			return false;
 			
 		}
-		public Vector<Mezua> getMezuak(Bezeroa bezeroa){
+		public ArrayList<Mezua> getMezuak(Bezeroa bezeroa){
 			Bezeroa erabiltzailea = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());
 			return erabiltzailea.getMezuak();
 		}

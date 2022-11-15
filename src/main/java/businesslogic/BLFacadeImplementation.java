@@ -1,6 +1,6 @@
 package businesslogic;
 
-import java.util.Vector;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -99,9 +99,9 @@ public class BLFacadeImplementation  implements BLFacade {
 	 * @return collection of events
 	 */
     @WebMethod	
-	public Vector<Event> getEvents(Date date)  {
+	public ArrayList<Event> getEvents(Date date)  {
 		dbManager.open(false);
-		Vector<Event>  events=dbManager.getEvents(date);
+		ArrayList<Event>  events=dbManager.getEvents(date);
 		dbManager.close();
 		return events;
 	}
@@ -113,9 +113,9 @@ public class BLFacadeImplementation  implements BLFacade {
 	 * @param date of the month for which days with events want to be retrieved 
 	 * @return collection of dates
 	 */
-	@WebMethod public Vector<Date> getEventsMonth(Date date) {
+	@WebMethod public ArrayList<Date> getEventsMonth(Date date) {
 		dbManager.open(false);
-		Vector<Date>  dates= dbManager.getEventsMonth(date);
+		ArrayList<Date>  dates= dbManager.getEventsMonth(date);
 		dbManager.close();
 		return dates;
 	}
@@ -163,9 +163,9 @@ public class BLFacadeImplementation  implements BLFacade {
     }
     
     @WebMethod	
-	public Vector<Question> getQuestions(Event event)  {
+	public ArrayList<Question> getQuestions(Event event)  {
 		dbManager.open(false);
-		Vector<Question>  questions=dbManager.getQuestions(event);
+		ArrayList<Question>  questions=dbManager.getQuestions(event);
 		dbManager.close();
 		return questions;
 	}
@@ -234,9 +234,9 @@ public class BLFacadeImplementation  implements BLFacade {
     }
     
     @WebMethod 
-    public Vector<Bezeroa> getBezeroak(String username, Bezeroa bezeroa){
+    public ArrayList<Bezeroa> getBezeroak(String username, Bezeroa bezeroa){
     	dbManager.open(false);
-    	Vector<Bezeroa> bezeroak = dbManager.getBezeroak(username, bezeroa);
+    	ArrayList<Bezeroa> bezeroak = dbManager.getBezeroak(username, bezeroa);
     	dbManager.close();
     	return bezeroak;
     }
@@ -250,9 +250,9 @@ public class BLFacadeImplementation  implements BLFacade {
     }
     
     @WebMethod 
-    public Vector<Mezua> getMezuak(Bezeroa bezeroa){
+    public ArrayList<Mezua> getMezuak(Bezeroa bezeroa){
     	dbManager.open(false);
-    	Vector<Mezua> mezuak = dbManager.getMezuak(bezeroa);
+    	ArrayList<Mezua> mezuak = dbManager.getMezuak(bezeroa);
     	dbManager.close();
     	return mezuak;
     }
@@ -290,9 +290,9 @@ public class BLFacadeImplementation  implements BLFacade {
     }
 
 	@WebMethod 
-	public Vector<PronostikoaContainer> getPronostikoak(Apustua a){
+	public ArrayList<PronostikoaContainer> getPronostikoak(Apustua a){
 		dbManager.open(false);
-    	Vector<PronostikoaContainer> emaitza = dbManager.getPronostikoak(a);
+    	ArrayList<PronostikoaContainer> emaitza = dbManager.getPronostikoak(a);
     	dbManager.close();
     	return emaitza;
 	}
@@ -358,9 +358,9 @@ public class BLFacadeImplementation  implements BLFacade {
 	}
 	
 	@WebMethod
-	public Vector<Langilea> getLangileak() {
+	public ArrayList<Langilea> getLangileak() {
 		dbManager.open(false);
-		Vector<Langilea> list = dbManager.getLangileak();
+		ArrayList<Langilea> list = dbManager.getLangileak();
 		dbManager.close();
 		return list;
 	}
@@ -374,17 +374,17 @@ public class BLFacadeImplementation  implements BLFacade {
 	}
 
 	@WebMethod
-	public Vector<ErrepikatuakContainer> getErrepikatzaileak(Bezeroa bezeroa) {
+	public ArrayList<ErrepikatuakContainer> getErrepikatzaileak(Bezeroa bezeroa) {
 		dbManager.open(false);
-		Vector<ErrepikatuakContainer> errepikapenak = dbManager.getErrepikatzaileak(bezeroa);
+		ArrayList<ErrepikatuakContainer> errepikapenak = dbManager.getErrepikatzaileak(bezeroa);
 		dbManager.close();
 		return errepikapenak;
 	}
 
 	@WebMethod
-	public Vector<ErrepikatuakContainer> getErrepikapenak(Bezeroa bezeroa) {
+	public ArrayList<ErrepikatuakContainer> getErrepikapenak(Bezeroa bezeroa) {
 		dbManager.open(false);
-		Vector<ErrepikatuakContainer> errepikapenak = dbManager.getErrepikapenak(bezeroa);
+		ArrayList<ErrepikatuakContainer> errepikapenak = dbManager.getErrepikapenak(bezeroa);
 		dbManager.close();
 		return errepikapenak;
 	}

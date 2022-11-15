@@ -187,7 +187,7 @@ public class FindQuestionsGUI extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				int i=tableEvents.getSelectedRow();
 				domain.Event ev=(domain.Event)tableModelEvents.getValueAt(i,2); // obtain ev object
-				Vector<Question> queries=ev.getQuestions();
+				ArrayList<Question> queries=ev.getQuestions();
 
 				tableModelQueries.setDataVector(null, columnNamesQueries);
 

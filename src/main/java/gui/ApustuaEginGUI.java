@@ -71,7 +71,7 @@ public class ApustuaEginGUI extends JFrame {
 	};
 	
 	private Integer pronosI;
-	private Vector<Pronostikoa> pronostikoak = new Vector<Pronostikoa>();
+	private ArrayList<Pronostikoa> pronostikoak = new ArrayList<Pronostikoa>();
 	private JLabel pronosticAdded;
 	private JButton quitButton;
 	private final JLabel euro = new JLabel("\u20AC");
