@@ -21,7 +21,7 @@ import domain.Pronostikoa;
 import domain.Question;
 
 public class ApustuaEginDAWTest {
-	//
+	
 	private static DataAccess da;
 	static Bezeroa bezero1;
 	static Bezeroa bezero2;
