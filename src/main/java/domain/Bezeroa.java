@@ -1,7 +1,7 @@
 package domain;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Vector;
 import java.util.Date;
 import java.util.Vector;
 
@@ -42,10 +42,10 @@ public class Bezeroa extends Pertsona implements Serializable{
 	private Vector<BezeroartekoMezua> jasotakoBezeroMezuak=new Vector<BezeroartekoMezua>();
 	
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private ArrayList<Errepikapena> errepikatzaileak=new ArrayList<Errepikapena>();
+	private Vector<Errepikapena> errepikatzaileak=new Vector<Errepikapena>();
 	
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private ArrayList<Errepikapena> errepikatuak=new ArrayList<Errepikapena>();
+	private Vector<Errepikapena> errepikatuak=new Vector<Errepikapena>();
 	
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
@@ -102,7 +102,7 @@ public class Bezeroa extends Pertsona implements Serializable{
 		return mugimenduak;
 	}
 	
-	public Apustua addApustua(ArrayList<Pronostikoa> pronostikoak, double dirua, Bezeroa nori) {
+	public Apustua addApustua(Vector<Pronostikoa> pronostikoak, double dirua, Bezeroa nori) {
 		Apustua berria = new Apustua(dirua, this, pronostikoak, nori);
 		apustuak.add(berria);
 		jokatuak=jokatuak+1;
@@ -118,8 +118,8 @@ public class Bezeroa extends Pertsona implements Serializable{
 		return apustuak;
 	}
 	
-	public ArrayList<Double> getEtekinInformazioa(){
-		ArrayList<Double> emaitza = new ArrayList<Double>();
+	public Vector<Double> getEtekinInformazioa(){
+		Vector<Double> emaitza = new Vector<Double>();
 		double irabazia, jokatua, etekina;
 		irabazia=0;
 		jokatua=0;
@@ -252,11 +252,11 @@ public class Bezeroa extends Pertsona implements Serializable{
 		this.errepikatuak.add(e);
 	}
 
-	public ArrayList<Errepikapena> getErrepikatzaileak() {
+	public Vector<Errepikapena> getErrepikatzaileak() {
 		return errepikatzaileak;
 	}
 
-	public ArrayList<Errepikapena> getErrepikatuak() {
+	public Vector<Errepikapena> getErrepikatuak() {
 		return errepikatuak;
 	}
 	
@@ -296,8 +296,8 @@ public class Bezeroa extends Pertsona implements Serializable{
 		return berria;
 	}
 	
-	public ArrayList<Mezua> getMezuak() {
-		ArrayList<Mezua> emaitza = new ArrayList<Mezua>();
+	public Vector<Mezua> getMezuak() {
+		Vector<Mezua> emaitza = new Vector<Mezua>();
 		emaitza.addAll(jasotakoBezeroMezuak);
 		for(ArretaElkarrizketa ae : arretaElkarrizketak) {
 			for(ArretaMezua am : ae.getLangileakBidalitakoak()) {

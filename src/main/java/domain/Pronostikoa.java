@@ -1,7 +1,7 @@
 package domain;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Vector;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -36,7 +36,7 @@ public class Pronostikoa implements Serializable{
 	private Question question;
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private ArrayList<Apustua> apustuak=new ArrayList<Apustua>();
+	private Vector<Apustua> apustuak=new Vector<Apustua>();
 	
 	public Pronostikoa(){
 		super();
@@ -62,7 +62,7 @@ public class Pronostikoa implements Serializable{
 		this.identifikadorea = identifikadorea;
 	}
 
-	public void setApustuak(ArrayList<Apustua> apustuak) {
+	public void setApustuak(Vector<Apustua> apustuak) {
 		this.apustuak = apustuak;
 	}
 	
@@ -90,7 +90,7 @@ public class Pronostikoa implements Serializable{
 		return identifikadorea;
 	}
 	
-	public ArrayList<Apustua> getApustuak(){
+	public Vector<Apustua> getApustuak(){
 		return apustuak;
 	}
 	

@@ -1,7 +1,7 @@
 package domain;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Vector;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -34,7 +34,7 @@ public class Apustua implements Serializable{
 	@XmlIDREF
 	private Bezeroa errepikatua;
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private ArrayList<Pronostikoa> pronostikoak=new ArrayList<Pronostikoa>();
+	private Vector<Pronostikoa> pronostikoak=new Vector<Pronostikoa>();
 	private Integer pronostikoKop;
 	private Integer asmatutakoKop;
 	private double kuotaTotala;
@@ -43,7 +43,7 @@ public class Apustua implements Serializable{
 		super();
 	}
 	
-	public Apustua(double kopurua, Bezeroa bezeroa, ArrayList<Pronostikoa> pronostikoak, Bezeroa errepikatua) {
+	public Apustua(double kopurua, Bezeroa bezeroa, Vector<Pronostikoa> pronostikoak, Bezeroa errepikatua) {
 		this.kopurua = kopurua;
 		this.bezeroa = bezeroa;
 		this.pronostikoak = pronostikoak;
@@ -93,7 +93,7 @@ public class Apustua implements Serializable{
 		this.bezeroa = bezeroa;
 	}
 
-	public void setPronostikoak(ArrayList<Pronostikoa> pronostikoak) {
+	public void setPronostikoak(Vector<Pronostikoa> pronostikoak) {
 		this.pronostikoak = pronostikoak;
 	}
 
@@ -113,7 +113,7 @@ public class Apustua implements Serializable{
 		return bezeroa;
 	}
 	
-	public ArrayList<Pronostikoa> getPronostikoak() {
+	public Vector<Pronostikoa> getPronostikoak() {
 		return pronostikoak;
 	}
 	
