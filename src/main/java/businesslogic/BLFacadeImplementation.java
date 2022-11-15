@@ -19,7 +19,6 @@ import domain.BezeroartekoMezua;
 import domain.Errepikapena;
 import domain.ErrepikatuakContainer;
 import domain.Event;
-import domain.ExtendedEventIterator;
 import domain.Langilea;
 import domain.Mezua;
 import domain.Pertsona;
@@ -403,16 +402,6 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.removePertsona(string);
 		dbManager.close();
 	}
-	
-	public ExtendedEventIterator<Event> getEventIterator(Date date) {
-		List<Event> list = dbManager.getEvents(date);
-		ExtendedEventIterator<Event> i = new ExtendedEventIterator<Event>(list);
-		return i;
-	}
 
-	public void createBLFacade(ConfigXML c) {
-		// TODO Auto-generated method stub
-		
-	}
 }
 

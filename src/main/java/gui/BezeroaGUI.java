@@ -155,18 +155,6 @@ public class BezeroaGUI extends JFrame {
 		jarraitzaileak.setText(ResourceBundle.getBundle("Etiquetas").getString("CheckFollowers")); //$NON-NLS-1$ //$NON-NLS-2$
 		jarraitzaileak.setBounds(16, 259, 408, 40);
 		contentPane.add(jarraitzaileak);
-		
-		JButton btnAdapterProba = new JButton(ResourceBundle.getBundle("Etiquetas").getString("BezeroaGUI.btnNewButton.text")); //$NON-NLS-1$ //$NON-NLS-2$
-		btnAdapterProba.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				irekiAdapterProba();
-			}
-		});
-		btnAdapterProba.setBounds(284, 427, 89, 23);
-		btnAdapterProba.setText(bezeroa.getErabiltzaileIzena());
-		contentPane.add(btnAdapterProba);
-		
-		
 	}
 
 	/**
@@ -222,12 +210,6 @@ public class BezeroaGUI extends JFrame {
 	public void irekiArretaZerbitzua() {
 		this.setVisible(false);
 		JFrame a = new ArretaZerbitzuaEskatuGUI(bezeroa, this);
-		a.setVisible(true);
-	}
-	
-	public void irekiAdapterProba() {
-		this.setVisible(false);
-		JFrame a = new AdapterProbaGUI(bezeroa);
 		a.setVisible(true);
 	}
 	

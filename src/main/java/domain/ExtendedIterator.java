@@ -14,6 +14,8 @@ public interface ExtendedIterator<Event> extends Iterator<Event>, Iterable{
 	public void goLast();
 	
 	void add(Event ev);
+	
 	public boolean isEmpty();
+	
 	public int size();
 }

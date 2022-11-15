@@ -26,7 +26,9 @@ public class BLFacadeFactory {
 			BLFacade  appFacadeInterface;
 
 			if (c.isBusinessLogicLocal()) {
-				DataAccess da= new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+				//DataAccess da= new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+				DataAccess da = new DataAccess(true);
+				System.out.println("\n\nMondongo\n\n");
 				return new BLFacadeImplementation(da); 
 			}else{
 				String serviceName= "http://"+c.getBusinessLogicNode() +":"+ c.getBusinessLogicPort()+"/ws/"+c.getBusinessLogicName()+"?wsdl";
