@@ -12,7 +12,7 @@ import domain.Pronostikoa;
 import exceptions.PronosticAlreadyExist;
 
 import org.junit.BeforeClass;
-
+//
 public class ApustuaEginDAB {
 	private static DataAccess da;
 	static Bezeroa bezero1;
